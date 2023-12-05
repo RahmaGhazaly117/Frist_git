@@ -12,8 +12,6 @@ jobs:
     runs-on: ubuntu-lastest
 
     steps: 
-      - name: 'test Github action'
-        run: pwd
+      - name: 'print content'
+        run: ls
 
-      - name: 'testing printing'
-        run: echo Rahma  
