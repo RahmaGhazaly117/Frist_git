@@ -12,9 +12,8 @@ jobs:
     runs-on: ubuntu-lastest
 
     steps: 
-      - name: 'print content before'
-        run: ls
       - uses: actions/checkout@v3
+      - name: "login to docker hub"
+        run: docker login --username rahma117 --password dckr_pat_XX5j4D6VzqjUAretWSkiI3Yd8eI
       
-      - name: 'print content after'
-        run: ls
+    
